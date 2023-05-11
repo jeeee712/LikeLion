@@ -1,0 +1,1 @@
+{'username': 'ohjiyi', 'password': '1234', 'name': '오지이', 'birthdate': None, 'email': 'ohjiyi@naver.com'}{'username': 'babo', 'password': '1234', 'name': '바보', 'birthdate': '000000', 'email': ' babo@gmail.com'}

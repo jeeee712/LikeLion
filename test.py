@@ -61,11 +61,11 @@ while True:
     users.append(user)
     print(users)
 
-print("회원가입을 추가로 진행하시겠습니까?\n y:진행 n: 취소")
-register_another_input = input(">>")
-register_another_input.lower
+    print("회원가입을 추가로 진행하시겠습니까?\n y:진행 n: 취소")
+    register_another_input = input(">>")
+    register_another_input.lower
 
-if register_another_input == "y":
-    pass
-elif register_another_input == "n":
-    exit()
+    if register_another_input == "y":
+        pass
+    elif register_another_input == "n":
+        exit()
