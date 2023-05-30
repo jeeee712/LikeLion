@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Countdown</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="countdown">
+        <div class="countdownItemContainer">
+          <div class="countdownItem">
+            <div class="countdownTime" id="days"></div>
+            <div class="countdownLabel">Days</div>
+          </div>
+          <div class="countdownItem">
+            <div class="countdownTime" id="hours"></div>
+            <div class="countdownLabel">Hours</div>
+          </div>
+          <div class="countdownItem">
+            <div class="countdownTime" id="minutes"></div>
+            <div class="countdownLabel">Minutes</div>
+          </div>
+          <div class="countdownItem">
+            <div class="countdownTime" id="seconds"></div>
+            <div class="countdownLabel">Seconds</div>
+          </div>
+        </div>
+        <div>
+          <p id="leftTime" class="leftText" />
+        </div>
+      </div>
+
+      <div class="inputContainer">
+        <div class="dateInputWrapper">
+          <input type="date" id="dateInput" />
+        </div>
+        <div class="timeInputWrapper">
+          <input type="time" id="timeInput" />
+        </div>
+        <button id="submit" class="submitBtn">오지이</button>
+      </div>
+    </div>
+    <script src="countDown.js"></script>
+  </body>
+</html>
